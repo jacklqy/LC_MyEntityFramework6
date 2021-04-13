@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace EF6.CodeFirstFromDB
 {
     /// <summary>
+    /// 推荐使用CodeFirstFromDB
     /// 这中方式比较推荐：
     /// CodeFirst From DB创建流程：项目右键-》添加-》新建项-》数据-》ADO.NET实体数据模型-》来自数据库的CodeFirst-》...
     /// </summary>
