@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dyd_bs_MQ_logModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tb_debuglog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="mqpathid" Type="int" Nullable="false" />
+    <Property Name="mqpath" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="info" Type="varchar(max)" Nullable="false" />
+    <Property Name="createtime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_error">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="mqpathid" Type="int" Nullable="false" />
+    <Property Name="mqpath" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="info" Type="varchar(max)" Nullable="false" />
+    <Property Name="createtime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="mqpathid" Type="int" Nullable="false" />
+    <Property Name="mqpath" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="info" Type="varchar(max)" Nullable="false" />
+    <Property Name="createtime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="dyd_bs_MQ_logModelStoreContainer">
+    <EntitySet Name="tb_debuglog" EntityType="Self.tb_debuglog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_error" EntityType="Self.tb_error" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_log" EntityType="Self.tb_log" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

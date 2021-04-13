@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dyd_bs_MQ_logModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tb_debuglog">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="mqpathid" Type="int" Nullable="false" />
+          <Property Name="mqpath" Type="varchar" MaxLength="300" Nullable="false" />
+          <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="info" Type="varchar(max)" Nullable="false" />
+          <Property Name="createtime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tb_error">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="mqpathid" Type="int" Nullable="false" />
+          <Property Name="mqpath" Type="varchar" MaxLength="300" Nullable="false" />
+          <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="info" Type="varchar(max)" Nullable="false" />
+          <Property Name="createtime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tb_log">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="mqpathid" Type="int" Nullable="false" />
+          <Property Name="mqpath" Type="varchar" MaxLength="300" Nullable="false" />
+          <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="info" Type="varchar(max)" Nullable="false" />
+          <Property Name="createtime" Type="datetime" Nullable="false" />
+          <Property Name="updatetime" Type="datetime" />
+        </EntityType>
+        <EntityContainer Name="dyd_bs_MQ_logModelStoreContainer">
+          <EntitySet Name="tb_debuglog" EntityType="Self.tb_debuglog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tb_error" EntityType="Self.tb_error" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tb_log" EntityType="Self.tb_log" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dyd_bs_MQ_logModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tb_debuglog">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="mqpathid" Type="Int32" Nullable="false" />
+          <Property Name="mqpath" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="methodname" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="createtime" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="tb_error">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="mqpathid" Type="Int32" Nullable="false" />
+          <Property Name="mqpath" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="methodname" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="createtime" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="tb_log">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="mqpathid" Type="Int32" Nullable="false" />
+          <Property Name="mqpath" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="methodname" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="createtime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="updatetime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="dyd_bs_MQ_logEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tb_debuglog" EntityType="Self.tb_debuglog" />
+          <EntitySet Name="tb_error" EntityType="Self.tb_error" />
+          <EntitySet Name="tb_log" EntityType="Self.tb_log" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dyd_bs_MQ_logModelStoreContainer" CdmEntityContainer="dyd_bs_MQ_logEntities">
+          <EntitySetMapping Name="tb_debuglog">
+            <EntityTypeMapping TypeName="dyd_bs_MQ_logModel.tb_debuglog">
+              <MappingFragment StoreEntitySet="tb_debuglog">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="mqpathid" ColumnName="mqpathid" />
+                <ScalarProperty Name="mqpath" ColumnName="mqpath" />
+                <ScalarProperty Name="methodname" ColumnName="methodname" />
+                <ScalarProperty Name="info" ColumnName="info" />
+                <ScalarProperty Name="createtime" ColumnName="createtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_error">
+            <EntityTypeMapping TypeName="dyd_bs_MQ_logModel.tb_error">
+              <MappingFragment StoreEntitySet="tb_error">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="mqpathid" ColumnName="mqpathid" />
+                <ScalarProperty Name="mqpath" ColumnName="mqpath" />
+                <ScalarProperty Name="methodname" ColumnName="methodname" />
+                <ScalarProperty Name="info" ColumnName="info" />
+                <ScalarProperty Name="createtime" ColumnName="createtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_log">
+            <EntityTypeMapping TypeName="dyd_bs_MQ_logModel.tb_log">
+              <MappingFragment StoreEntitySet="tb_log">
+                <ScalarProperty Name="updatetime" ColumnName="updatetime" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="mqpathid" ColumnName="mqpathid" />
+                <ScalarProperty Name="mqpath" ColumnName="mqpath" />
+                <ScalarProperty Name="methodname" ColumnName="methodname" />
+                <ScalarProperty Name="info" ColumnName="info" />
+                <ScalarProperty Name="createtime" ColumnName="createtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

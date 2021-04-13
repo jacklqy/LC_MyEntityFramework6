@@ -1,0 +1,12 @@
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EF6.CodeFirst.exe.config
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EF6.CodeFirst.exe
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EF6.CodeFirst.pdb
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EntityFramework.dll
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EntityFramework.xml
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\obj\Debug\EF6.CodeFirst.csprojAssemblyReference.cache
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\obj\Debug\EF6.CodeFirst.csproj.CoreCompileInputs.cache
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\obj\Debug\EF6.CodeFirst.csproj.CopyComplete
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\obj\Debug\EF6.CodeFirst.exe
+D:\github\LC_MyEntityFramework6\EF6.CodeFirst\obj\Debug\EF6.CodeFirst.pdb
