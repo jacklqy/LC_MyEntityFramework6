@@ -6,7 +6,6 @@ D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\bin\Debug\EntityFramework.Sq
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\bin\Debug\EntityFramework.xml
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\bin\Debug\EntityFramework.SqlServer.xml
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\bin\Debug\zh-Hans\EntityFramework.resources.dll
-D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.csprojAssemblyReference.cache
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.csproj.CoreCompileInputs.cache
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.csproj.CopyComplete
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.exe

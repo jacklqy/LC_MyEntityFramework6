@@ -1,7 +1,6 @@
 D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\MyConsole.exe.config
 D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\MyConsole.exe
 D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\MyConsole.pdb
-D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.csprojAssemblyReference.cache
 D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.csproj.CoreCompileInputs.cache
 D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.exe
 D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.pdb
