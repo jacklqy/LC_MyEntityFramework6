@@ -32,6 +32,7 @@
     <Property Name="methodname" Type="varchar" MaxLength="500" Nullable="false" />
     <Property Name="info" Type="varchar(max)" Nullable="false" />
     <Property Name="createtime" Type="datetime" Nullable="false" />
+    <Property Name="updatetime" Type="datetime" />
   </EntityType>
   <EntityContainer Name="dyd_bs_MQ_logModelStoreContainer">
     <EntitySet Name="tb_debuglog" EntityType="Self.tb_debuglog" Schema="dbo" store:Type="Tables" />

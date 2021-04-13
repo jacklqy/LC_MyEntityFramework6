@@ -32,6 +32,7 @@
     <Property Name="methodname" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="createtime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="updatetime" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityContainer Name="dyd_bs_MQ_logEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="tb_debuglog" EntityType="Self.tb_debuglog" />

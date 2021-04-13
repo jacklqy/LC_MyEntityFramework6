@@ -30,6 +30,14 @@ namespace MyConsole
     ///        
     /// 
     /// EF查看sql有2种方式：方式一：数据库管理工具里面的sql server profiler；方式二：dbContext.Database.Log += sqlStr => Console.WriteLine($"当前执行sql：{sqlStr}");
+    /// 
+    /// 
+    /// 
+    /// 1 各种复杂查询&直接执行sql
+    /// 2 EF状态跟踪，本地增删改查实现
+    /// 3 Context生命周期，多种事务
+    /// 4 EF延迟查询、导航属性加载&增加&删除
+    /// 
     /// </summary>
     class Program
     {

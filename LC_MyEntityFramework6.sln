@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6.CodeFirst", "EF6.CodeFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6.ModelFirst", "EF6.ModelFirst\EF6.ModelFirst.csproj", "{55231A6C-0E18-40B2-9076-D90C94ABA63D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManyWayEF6DB", "ManyWayEF6DB", "{03DBADDB-9410-4B02-B170-E017CCACB35B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E2BC8F7-C9F7-45D9-A190-CBAB6C10945D} = {03DBADDB-9410-4B02-B170-E017CCACB35B}
+		{862EF193-C593-4AFE-A9DB-B1EB5B60D366} = {03DBADDB-9410-4B02-B170-E017CCACB35B}
+		{FED5587E-3B12-4443-963F-300C5FF23A85} = {03DBADDB-9410-4B02-B170-E017CCACB35B}
+		{55231A6C-0E18-40B2-9076-D90C94ABA63D} = {03DBADDB-9410-4B02-B170-E017CCACB35B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16227403-85C0-46A4-9025-B91528F196A0}

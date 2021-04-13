@@ -28,6 +28,7 @@
     <EntitySetMapping Name="tb_log">
       <EntityTypeMapping TypeName="dyd_bs_MQ_logModel.tb_log">
         <MappingFragment StoreEntitySet="tb_log">
+          <ScalarProperty Name="updatetime" ColumnName="updatetime" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="mqpathid" ColumnName="mqpathid" />
           <ScalarProperty Name="mqpath" ColumnName="mqpath" />
