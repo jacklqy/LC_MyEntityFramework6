@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EF.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,11 +39,34 @@ namespace MyConsole
     /// 3 Context生命周期，多种事务
     /// 4 EF延迟查询、导航属性加载&增加&删除
     /// 
+    /// 
+    /// 封装类库--上端引用--引用EF--搬迁配置文件数据库连接字符串
     /// </summary>
     class Program
     {
         static void Main(string[] args)
         {
+            try
+            {
+                //using(LCDbContext context=new LCDbContext())
+                //{
+                //    tb_log log = context.tb_log.Find(1);
+                //}
+
+                {
+                    ////基础查询
+                    //EFQueryTest.Show();
+                }
+                {
+                    //状态跟踪
+                    EFStateTest.Show();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.Read();
         }
     }
 }

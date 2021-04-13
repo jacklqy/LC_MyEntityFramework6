@@ -4,3 +4,14 @@ D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\MyConsole.pdb
 D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.csproj.CoreCompileInputs.cache
 D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.exe
 D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.pdb
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Model.dll
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EntityFramework.dll
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Model.pdb
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Model.dll.config
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EntityFramework.xml
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.csprojAssemblyReference.cache
+D:\github\LC_MyEntityFramework6\MyConsole\obj\Debug\MyConsole.csproj.CopyComplete
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

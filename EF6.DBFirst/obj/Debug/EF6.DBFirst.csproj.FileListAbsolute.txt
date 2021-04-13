@@ -6,7 +6,6 @@ D:\github\LC_MyEntityFramework6\EF6.DBFirst\bin\Debug\EntityFramework.SqlServer.
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\bin\Debug\EntityFramework.xml
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\bin\Debug\EntityFramework.SqlServer.xml
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
-D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.csprojAssemblyReference.cache
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.csproj.CoreCompileInputs.cache
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.csproj.CopyComplete
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.exe

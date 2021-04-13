@@ -1,0 +1,14 @@
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EF.Model.dll
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EF.Model.pdb
+D:\github\LC_MyEntityFramework6\EF.Model\obj\Debug\EF.Model.csproj.CoreCompileInputs.cache
+D:\github\LC_MyEntityFramework6\EF.Model\obj\Debug\EF.Model.dll
+D:\github\LC_MyEntityFramework6\EF.Model\obj\Debug\EF.Model.pdb
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EF.Model.dll.config
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EntityFramework.dll
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EntityFramework.xml
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\github\LC_MyEntityFramework6\EF.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\github\LC_MyEntityFramework6\EF.Model\obj\Debug\EF.Model.csproj.CopyComplete
+D:\github\LC_MyEntityFramework6\EF.Model\obj\Debug\EF.Model.csprojAssemblyReference.cache
