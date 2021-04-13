@@ -12,15 +12,10 @@ namespace EF.Model
 
         public int mqpathid { get; set; }
 
-        [Required]
-        [StringLength(300)]
         public string mqpath { get; set; }
 
-        [Required]
-        [StringLength(500)]
         public string methodname { get; set; }
 
-        [Required]
         public string info { get; set; }
 
         public DateTime createtime { get; set; }

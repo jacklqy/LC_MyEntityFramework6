@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EFContextTest.cs" />
+    <Compile Include="EFQueryAdvancedTest.cs" />
     <Compile Include="EFQueryTest.cs" />
     <Compile Include="EFStateTest.cs" />
     <Compile Include="Program.cs" />

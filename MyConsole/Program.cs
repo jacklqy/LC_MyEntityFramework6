@@ -58,8 +58,16 @@ namespace MyConsole
                     //EFQueryTest.Show();
                 }
                 {
-                    //状态跟踪
-                    EFStateTest.Show();
+                    ////状态跟踪
+                    //EFStateTest.Show();
+                }
+                {
+                    ////DBContext使用
+                    //EFContextTest.Show();
+                }
+                {
+                    //查询进阶(延迟查询)
+                    EFContextTest.Show();
                 }
             }
             catch (Exception ex)
