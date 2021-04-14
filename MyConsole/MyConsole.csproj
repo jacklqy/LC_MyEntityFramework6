@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EFContextTest.cs" />
+    <Compile Include="EFNavigationTest.cs" />
     <Compile Include="EFQueryAdvancedTest.cs" />
     <Compile Include="EFQueryTest.cs" />
     <Compile Include="EFStateTest.cs" />

@@ -8,9 +8,11 @@ namespace EF.Model
 
     public partial class tb_debuglog
     {
+        [Key]
         public long id { get; set; }
 
-        public int mqpathid { get; set; }
+        //[ForeignKey("tb_mq")]//标记对应表的外键
+        public int mqpathid;
 
         public string mqpath { get; set; }
 
@@ -19,5 +21,8 @@ namespace EF.Model
         public string info { get; set; }
 
         public DateTime createtime { get; set; }
+
+        //导航属性
+        //public virtual tb_mq tb_mq { get; set; }
     }
 }

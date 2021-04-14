@@ -17,6 +17,7 @@ namespace EF.Model
         public virtual DbSet<tb_debuglog> tb_debuglog { get; set; }
         public virtual DbSet<tb_error> tb_error { get; set; }
         public virtual DbSet<tb_log> tb_log { get; set; }
+        public virtual DbSet<tb_mq> tb_mq { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -54,6 +55,10 @@ namespace EF.Model
 
             modelBuilder.Entity<tb_log>()
                 .Property(e => e.info)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<tb_mq>()
+                .Property(e => e.mqname)
                 .IsUnicode(false);
         }
     }

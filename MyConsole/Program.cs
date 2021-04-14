@@ -41,6 +41,13 @@ namespace MyConsole
     /// 
     /// 
     /// 封装类库--上端引用--引用EF--搬迁配置文件数据库连接字符串
+    /// 
+    /// 
+    /// EF四种事务：
+    /// 1 单个SaveChanges本身就是一个事务;。
+    /// 2 TransactionScope完成一个context的多次SaveChanges事务。
+    /// 3 TransactionScope完成不同context实例的事务。
+    /// 4 dbContext.Database.BeginTransaction()实现事务。
     /// </summary>
     class Program
     {
@@ -66,8 +73,13 @@ namespace MyConsole
                     //EFContextTest.Show();
                 }
                 {
-                    //查询进阶(延迟查询)
-                    EFContextTest.Show();
+                    ////查询进阶(延迟查询)
+                    //EFContextTest.Show();
+                }
+                {
+                    //导航属性
+                    //EFNavigationTest.ShowQuery();
+                    EFNavigationTest.ShowInsert();
                 }
             }
             catch (Exception ex)
