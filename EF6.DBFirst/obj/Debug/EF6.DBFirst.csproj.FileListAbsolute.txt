@@ -11,3 +11,4 @@ D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.csproj.CopyCom
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.exe
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.pdb
 D:\github\LC_MyEntityFramework6\EF6.DBFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\github\LC_MyEntityFramework6\EF6.DBFirst\obj\Debug\EF6.DBFirst.csprojAssemblyReference.cache

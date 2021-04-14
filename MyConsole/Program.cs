@@ -48,6 +48,18 @@ namespace MyConsole
     /// 2 TransactionScope完成一个context的多次SaveChanges事务。
     /// 3 TransactionScope完成不同context实例的事务。
     /// 4 dbContext.Database.BeginTransaction()实现事务。
+    /// 
+    /// 
+    /// 
+    /// 1 理解分层架构
+    /// 2 EF分层封装数据访问
+    /// 3 EF和IOC整合
+    /// 4 AOP扩展订制
+    /// 
+    /// 分层--架构
+    /// EF里面 Context已经完成了DAL能做的全部事儿了---没必要在去整一个DAL
+    /// EF.Business.Service---业务逻辑层
+    /// EF.Business.IService---业务抽象层
     /// </summary>
     class Program
     {
@@ -79,7 +91,10 @@ namespace MyConsole
                 {
                     //导航属性
                     //EFNavigationTest.ShowQuery();
-                    EFNavigationTest.ShowInsert();
+                    //EFNavigationTest.ShowInsert();
+                }
+                {
+                    IOCTest.Show();
                 }
             }
             catch (Exception ex)
