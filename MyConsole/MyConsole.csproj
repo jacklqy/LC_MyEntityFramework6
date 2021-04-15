@@ -91,6 +91,7 @@
     <None Include="CfgFiles\Unity.Config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="DB\dyd_bs_MQ_log.bak" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

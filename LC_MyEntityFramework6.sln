@@ -29,11 +29,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.Common", "EF.Common\EF.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvc5", "MyMvc5\MyMvc5.csproj", "{48D86BC8-C6A8-4A40-8374-5EB805A80141}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{7402C741-EEB4-44A0-9DE7-32100E9A1266}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Tool\资料\dyd_bs_MQ_log.bak = ..\..\Tool\资料\dyd_bs_MQ_log.bak
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
