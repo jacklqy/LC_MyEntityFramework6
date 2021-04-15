@@ -14,3 +14,4 @@ EF6->EntityFramework6：
 ![image](https://user-images.githubusercontent.com/26539681/114819898-c2bfe580-9df0-11eb-9ceb-9264fa9ec0ea.png)
 ![image](https://user-images.githubusercontent.com/26539681/114819996-e71bc200-9df0-11eb-9f90-628f9cbaffb4.png)
 
+希望为.net开源社区尽绵薄之力，探lu者###一直在探索前进的路上###（QQ:529987528）
