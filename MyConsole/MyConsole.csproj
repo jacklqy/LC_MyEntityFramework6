@@ -77,9 +77,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AOP\LogAfterBehavior.cs" />
-    <Compile Include="AOP\LogBeforeBehavior.cs" />
-    <Compile Include="ContainerFactory.cs" />
     <Compile Include="EFContextTest.cs" />
     <Compile Include="EFNavigationTest.cs" />
     <Compile Include="EFQueryAdvancedTest.cs" />
@@ -88,7 +85,6 @@
     <Compile Include="IOCTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -105,6 +101,10 @@
     <ProjectReference Include="..\EF.Business.Service\EF.Business.Service.csproj">
       <Project>{979dddbe-0c85-4414-abfc-1654f1aef9ba}</Project>
       <Name>EF.Business.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EF.Common\EF.Common.csproj">
+      <Project>{68aac889-08ce-47c6-a0a8-d47dffe59f34}</Project>
+      <Name>EF.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\EF.Model\EF.Model.csproj">
       <Project>{ce9247a2-7d66-41e8-b454-9ba87c431900}</Project>

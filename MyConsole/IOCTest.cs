@@ -1,5 +1,7 @@
 ﻿using EF.Business.IService;
 using EF.Business.IService.ICombinationService;
+using EF.Common.UnitOfWork;
+using EF.Common.Unity;
 //using EF.Business.Service;
 //using EF.Business.Service.CombinationService;
 using EF.Model;
@@ -77,7 +79,7 @@ namespace MyConsole
                 //}
 
                 ////3 上端难免还是要多个Service(多个Context)共同操作，不要Join！事务(UnitOfWork)怎么办呢？TransactionScope
-                //UnitOfWork.Invoke(() =>
+                //UnitOfWorkHelper.Invoke(() =>
                 //{
                 //    using (IMqLogService iMqLogService = new MqLogService(new LCDbContext()))
                 //    {
@@ -92,14 +94,28 @@ namespace MyConsole
                 //2 配置Unity.Config文件
                 //3 配置AOP
                 IUnityContainer container = ContainerFactory.GetContainer();
-                using (ITb_MqService iTb_MqService = container.Resolve<ITb_MqService>())
-                {
-                    tb_mq mq = iTb_MqService.Find<tb_mq>(1);
-                }
                 using (IMqLogService iMqLogService = container.Resolve<IMqLogService>())
                 {
                     tb_log lg = iMqLogService.Find<tb_log>(1);
                 }
+                using (ITb_MqService iTb_MqService = container.Resolve<ITb_MqService>())
+                {
+                    tb_mq mq = iTb_MqService.Find<tb_mq>(1);
+                }
+
+                //多个Service(多个Context)共同操作，事务处理
+                UnitOfWorkHelper.Invoke(() =>
+                {
+                    using (IMqLogService iMqLogService = container.Resolve<IMqLogService>())
+                    {
+                        tb_log lg = iMqLogService.Find<tb_log>(1);
+                    }
+                    using (ITb_MqService iTb_MqService = container.Resolve<ITb_MqService>())
+                    {
+                        tb_mq mq = iTb_MqService.Find<tb_mq>(1);
+                    }
+                });
+
             }
         }
     }

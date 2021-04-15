@@ -47,7 +47,6 @@
     <Compile Include="ITb_ErrorService.cs" />
     <Compile Include="ITb_LogService.cs" />
     <Compile Include="ITb_MqService.cs" />
-    <Compile Include="PageResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

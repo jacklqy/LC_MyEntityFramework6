@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EF.Model.Models.Other.Page;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -8,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace EF.Business.IService
 {
+    /// <summary>
+    /// 基础公共功能(里面的增删改都是即时Commit；可以在相应子类实新非及时Commit，这样可以做打包提交Commit事务。)
+    /// </summary>
     public interface IBaseService : IDisposable//是为了释放Context
     {
         #region Query

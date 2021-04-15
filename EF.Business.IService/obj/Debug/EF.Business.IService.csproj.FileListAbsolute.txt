@@ -1,13 +1,13 @@
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EF.Business.IService.dll
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EF.Business.IService.pdb
-D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.csprojAssemblyReference.cache
-D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.csproj.CoreCompileInputs.cache
-D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.dll
-D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.pdb
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EF.Model.dll
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EntityFramework.dll
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EF.Model.pdb
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EF.Model.dll.config
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\EntityFramework.xml
 D:\github\LC_MyEntityFramework6\EF.Business.IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.csprojAssemblyReference.cache
+D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.csproj.CoreCompileInputs.cache
 D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.csproj.CopyComplete
+D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.dll
+D:\github\LC_MyEntityFramework6\EF.Business.IService\obj\Debug\EF.Business.IService.pdb

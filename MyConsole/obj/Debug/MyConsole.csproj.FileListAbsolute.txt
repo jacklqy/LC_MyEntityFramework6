@@ -54,3 +54,5 @@ D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\Unity.Interception.Configura
 D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Business.Service.dll
 D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Business.Service.pdb
 D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Business.Service.dll.config
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Common.dll
+D:\github\LC_MyEntityFramework6\MyConsole\bin\Debug\EF.Common.pdb

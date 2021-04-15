@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace EF.Business.IService
 {
+    /// <summary>
+    /// 扩展自身特殊增删改查、多表join、多表join分页等...
+    /// </summary>
     public interface ITb_MqService : IBaseService
     {
         void UpdateLastData(tb_mq mq);

@@ -11,4 +11,3 @@ D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromD
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.exe
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.pdb
 D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-D:\github\LC_MyEntityFramework6\EF6.CodeFirstFromDB\obj\Debug\EF6.CodeFirstFromDB.csprojAssemblyReference.cache

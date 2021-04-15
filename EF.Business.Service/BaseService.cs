@@ -1,4 +1,5 @@
 ﻿using EF.Business.IService;
+using EF.Model.Models.Other.Page;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -80,11 +81,10 @@ namespace EF.Business.Service
 
         #region Insert
         /// <summary>
-        /// 即使保存  不需要再Commit
+        /// 新增数据，即时Commit
         /// </summary>
-        /// <typeparam name="T"></typeparam>
         /// <param name="t"></param>
-        /// <returns></returns>
+        /// <returns>返回带主键的实体</returns>
         public T Insert<T>(T t) where T : class
         {
             this.Context.Set<T>().Add(t);
@@ -92,6 +92,13 @@ namespace EF.Business.Service
             return t;
         }
 
+        /// <summary>
+        /// 新增数据，即时Commit
+        /// 多条sql 一个连接，事务插入
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="tList"></param>
+        /// <returns></returns>
         public IEnumerable<T> Insert<T>(IEnumerable<T> tList) where T : class
         {
             this.Context.Set<T>().AddRange(tList);
@@ -102,6 +109,7 @@ namespace EF.Business.Service
 
         #region Update
         /// <summary>
+        /// 更新数据，即时Commit
         /// 是没有实现查询，直接更新的,需要Attach和State
         /// 
         /// 如果是已经在context，只能再封装一个(在具体的service)
@@ -116,7 +124,11 @@ namespace EF.Business.Service
             this.Context.Entry<T>(t).State = EntityState.Modified;
             this.Commit();//保存 然后重置为UnChanged
         }
-
+        /// <summary>
+        /// 更新数据，即时Commit
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="tList"></param>
         public void Update<T>(IEnumerable<T> tList) where T : class
         {
             foreach (var t in tList)

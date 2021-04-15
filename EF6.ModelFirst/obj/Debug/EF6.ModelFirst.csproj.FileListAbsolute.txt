@@ -4,4 +4,3 @@ D:\github\LC_MyEntityFramework6\EF6.ModelFirst\bin\Debug\EF6.ModelFirst.pdb
 D:\github\LC_MyEntityFramework6\EF6.ModelFirst\obj\Debug\EF6.ModelFirst.csproj.CoreCompileInputs.cache
 D:\github\LC_MyEntityFramework6\EF6.ModelFirst\obj\Debug\EF6.ModelFirst.exe
 D:\github\LC_MyEntityFramework6\EF6.ModelFirst\obj\Debug\EF6.ModelFirst.pdb
-D:\github\LC_MyEntityFramework6\EF6.ModelFirst\obj\Debug\EF6.ModelFirst.csprojAssemblyReference.cache
